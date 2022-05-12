@@ -11,36 +11,6 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://rook.io/1.8/ceph-disaster-recovery/</loc>
-         <lastmod>2022-05-12</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://rook.io/1.8/ceph-examples/</loc>
-         <lastmod>2022-05-12</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://rook.io/1.8/ceph-monitoring/</loc>
-         <lastmod>2022-05-12</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://rook.io/1.8/ceph-openshift-issues/</loc>
-         <lastmod>2022-05-12</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://rook.io/1.8/ceph-openshift/</loc>
-         <lastmod>2022-05-12</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://rook.io/1.8/ceph-osd-mgmt/</loc>
-         <lastmod>2022-05-12</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
          <loc>https://rook.io/1.8/CRDs/ceph-client-crd/</loc>
          <lastmod>2022-05-12</lastmod>
          <changefreq>daily</changefreq>
@@ -106,6 +76,21 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://rook.io/1.8/Common%20Issues/ceph-disaster-recovery/</loc>
+         <lastmod>2022-05-12</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://rook.io/1.8/Common%20Issues/ceph-openshift-issues/</loc>
+         <lastmod>2022-05-12</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://rook.io/1.8/Common%20Issues/ceph-osd-mgmt/</loc>
+         <lastmod>2022-05-12</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://rook.io/1.8/Common%20Issues/common-issues/</loc>
          <lastmod>2022-05-12</lastmod>
          <changefreq>daily</changefreq>
@@ -127,6 +112,11 @@
     </url>
     <url>
          <loc>https://rook.io/1.8/Designs/ceph-mon-health/</loc>
+         <lastmod>2022-05-12</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://rook.io/1.8/Getting%20Started/ceph-openshift/</loc>
          <lastmod>2022-05-12</lastmod>
          <changefreq>daily</changefreq>
     </url>
@@ -182,6 +172,16 @@
     </url>
     <url>
          <loc>https://rook.io/1.8/Usages-and-Examples/ceph-dashboard/</loc>
+         <lastmod>2022-05-12</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://rook.io/1.8/Usages-and-Examples/ceph-examples/</loc>
+         <lastmod>2022-05-12</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://rook.io/1.8/Usages-and-Examples/ceph-monitoring/</loc>
          <lastmod>2022-05-12</lastmod>
          <changefreq>daily</changefreq>
     </url>
