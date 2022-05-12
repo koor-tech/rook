@@ -81,6 +81,11 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://rook.io/1.8/Common%20Issues/ceph-mon-health/</loc>
+         <lastmod>2022-05-12</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://rook.io/1.8/Common%20Issues/ceph-openshift-issues/</loc>
          <lastmod>2022-05-12</lastmod>
          <changefreq>daily</changefreq>
@@ -107,11 +112,6 @@
     </url>
     <url>
          <loc>https://rook.io/1.8/Contributing/storage-providers/</loc>
-         <lastmod>2022-05-12</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://rook.io/1.8/Designs/ceph-mon-health/</loc>
          <lastmod>2022-05-12</lastmod>
          <changefreq>daily</changefreq>
     </url>
