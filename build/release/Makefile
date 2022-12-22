@@ -136,6 +136,10 @@ deps.docs:
 	pip3 install -r requirements_docs.txt
 
 build.docs: deps.docs
+	# Setup robots.txt to disallow old docs versions for the latest release
+	if test ! -z "$(DOCS_VERSION_ALIAS)"; then \
+		echo -e "User-agent: *\nDisallow: /docs/rook/v*.*/\nSitemap: https://rook.io/docs/rook/$(DOCS_VERSION)/sitemap.xml" > Documentation/robots.txt; \
+	fi
 	# Build the docs once before they are published to ensure they are correctly building
 	cd $(ROOT_DIR) && mkdocs build --strict
 
@@ -143,7 +147,7 @@ publish.docs:
 	if ! git remote show docs > /dev/null 2>&1; then git remote add docs $(DOCS_GIT_REPO); fi
 	# If we are running in GitHub actions, remove the extraheader so our custom GitHub API token is used
 	if test "$$GITHUB_ACTIONS" = "true"; then git config --unset 'http.https://github.com/.extraheader'; fi
-	git fetch -u docs gh-pages
+	git fetch --update-head-ok docs gh-pages
 	# Switch to root of repo and then run the build and deploy of the documentation
 	cd $(ROOT_DIR) && mike deploy --remote docs --push --rebase --branch gh-pages --update-aliases --prefix $(DOCS_PREFIX) $(DOCS_VERSION) $(DOCS_VERSION_ALIAS)
 
