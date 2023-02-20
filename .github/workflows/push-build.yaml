@@ -79,3 +79,5 @@ jobs:
       - name: consider debugging
         if: failure()
         uses: ./.github/workflows/tmate_debug
+        with:
+          use-tmate: ${{ secrets.USE_TMATE }}

@@ -67,6 +67,8 @@ jobs:
 
       - name: consider debugging
         uses: ./.github/workflows/tmate_debug
+        with:
+          use-tmate: ${{ secrets.USE_TMATE }}
 
   linux-build-all:
     runs-on: ubuntu-20.04
@@ -98,3 +100,5 @@ jobs:
       - name: consider debugging
         if: failure()
         uses: ./.github/workflows/tmate_debug
+        with:
+          use-tmate: ${{ secrets.USE_TMATE }}
