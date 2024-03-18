@@ -111,8 +111,8 @@ github.com/armon/go-socks5 v0.0.0-20160902184237-e75332964ef5/go.mod h1:wHh0iHkY
 github.com/asaskevich/govalidator v0.0.0-20180720115003-f9ffefc3facf/go.mod h1:lB+ZfQJz7igIIfQNfa7Ml4HSf2uFQQRzpGGRXenZAgY=
 github.com/asaskevich/govalidator v0.0.0-20190424111038-f61b66f89f4a/go.mod h1:lB+ZfQJz7igIIfQNfa7Ml4HSf2uFQQRzpGGRXenZAgY=
 github.com/aws/aws-sdk-go v1.44.164/go.mod h1:aVsgQcEevwlmQ7qHE9I3h+dtQgpqhFB+i8Phjh7fkwI=
-github.com/aws/aws-sdk-go v1.50.31 h1:gx2NRLLEDUmQFC4YUsfMUKkGCwpXVO8ijUecq/nOQGA=
-github.com/aws/aws-sdk-go v1.50.31/go.mod h1:LF8svs817+Nz+DmiMQKTO3ubZ/6IaTpq3TjupRn3Eqk=
+github.com/aws/aws-sdk-go v1.51.1 h1:AFvTihcDPanvptoKS09a4yYmNtPm3+pXlk6uYHmZiFk=
+github.com/aws/aws-sdk-go v1.51.1/go.mod h1:LF8svs817+Nz+DmiMQKTO3ubZ/6IaTpq3TjupRn3Eqk=
 github.com/banzaicloud/k8s-objectmatcher v1.8.0 h1:Nugn25elKtPMTA2br+JgHNeSQ04sc05MDPmpJnd1N2A=
 github.com/banzaicloud/k8s-objectmatcher v1.8.0/go.mod h1:p2LSNAjlECf07fbhDyebTkPUIYnU05G+WfGgkTmgeMg=
 github.com/benbjohnson/clock v1.1.0/go.mod h1:J11/hYXuz8f4ySSvYwY0FKfm+ezbsZBKZxNJlLklBHA=
@@ -213,8 +213,9 @@ github.com/evanphx/json-patch v5.9.0+incompatible/go.mod h1:50XU6AFN0ol/bzJsmQLi
 github.com/evanphx/json-patch/v5 v5.0.0/go.mod h1:G79N1coSVB93tBe7j6PhzjmR3/2VvlbKOFpnXhI9Bw4=
 github.com/evanphx/json-patch/v5 v5.8.0 h1:lRj6N9Nci7MvzrXuX6HFzU8XjmhPiXPlsKEy1u0KQro=
 github.com/evanphx/json-patch/v5 v5.8.0/go.mod h1:VNkHZ/282BpEyt/tObQO8s5CMPmYYq14uClGH4abBuQ=
-github.com/fatih/color v1.7.0 h1:DkWD4oS2D8LGGgTQ6IvwJJXSL5Vp2ffcQg58nFV38Ys=
 github.com/fatih/color v1.7.0/go.mod h1:Zm6kSWBoL9eyXnKyktHP6abPY2pDugNf5KwzbycvMj4=
+github.com/fatih/color v1.16.0 h1:zmkK9Ngbjj+K0yRhTVONQh1p/HknKYSlNT+vZCzyokM=
+github.com/fatih/color v1.16.0/go.mod h1:fL2Sau1YI5c0pdGEVCbKQbLXB6edEj1ZgiY4NijnWvE=
 github.com/form3tech-oss/jwt-go v3.2.2+incompatible/go.mod h1:pbq4aXjuKjdthFRnoDwaVPLA+WlJuPGy+QneDUgJi2k=
 github.com/form3tech-oss/jwt-go v3.2.3+incompatible/go.mod h1:pbq4aXjuKjdthFRnoDwaVPLA+WlJuPGy+QneDUgJi2k=
 github.com/fsnotify/fsnotify v1.4.7/go.mod h1:jwhsz4b93w/PPRr/qN1Yymfu8t87LnFCMoQvtojpjFo=
@@ -485,8 +486,9 @@ github.com/hashicorp/hcl v1.0.0/go.mod h1:E5yfLk+7swimpb2L/Alb/PJmXilQ/rhwaUYs4T
 github.com/hashicorp/hcl v1.0.1-vault-5 h1:kI3hhbbyzr4dldA8UdTb7ZlVVlI2DACdCfz31RPDgJM=
 github.com/hashicorp/hcl v1.0.1-vault-5/go.mod h1:XYhtn6ijBSAj6n4YqAaf7RBPS4I06AItNorpy+MoQNM=
 github.com/hashicorp/vault/api v1.10.0/go.mod h1:jo5Y/ET+hNyz+JnKDt8XLAdKs+AM0G5W0Vp1IrFI8N8=
-github.com/hashicorp/vault/api v1.12.0 h1:meCpJSesvzQyao8FCOgk2fGdoADAnbDu2WPJN1lDLJ4=
 github.com/hashicorp/vault/api v1.12.0/go.mod h1:si+lJCYO7oGkIoNPAN8j3azBLTn9SjMGS+jFaHd1Cck=
+github.com/hashicorp/vault/api v1.12.1 h1:WzGN4X5jrJdNO39g6Sa55djNio3I9DxEBOTmCZE7tm0=
+github.com/hashicorp/vault/api v1.12.1/go.mod h1:1pqP/sErScodde+ybJCyP+ONC4jzEg7Dmawg/QLWo1k=
 github.com/hashicorp/vault/api/auth/approle v0.5.0/go.mod h1:CHOQIA1AZACfjTzHggmyfiOZ+xCSKNRFqe48FTCzH0k=
 github.com/hashicorp/vault/api/auth/approle v0.6.0 h1:ELfFFQlTM/e97WJKu1HvNFa7lQ3tlTwwzrR1NJE1V7Y=
 github.com/hashicorp/vault/api/auth/approle v0.6.0/go.mod h1:CCoIl1xBC3lAWpd1HV+0ovk76Z8b8Mdepyk21h3pGk0=
@@ -667,10 +669,10 @@ github.com/posener/complete v1.1.1/go.mod h1:em0nMJCgc9GFtwrmVmEMR/ZL6WyhyjMBndr
 github.com/pquerna/cachecontrol v0.0.0-20171018203845-0dec1b30a021/go.mod h1:prYjPmNq4d1NPVmpShWobRqXY3q7Vp+80DqgxxUrUIA=
 github.com/prashantv/gostub v1.1.0 h1:BTyx3RfQjRHnUWaGF9oQos79AlQ5k8WNktv7VGvVH4g=
 github.com/prashantv/gostub v1.1.0/go.mod h1:A5zLQHz7ieHGG7is6LLXLz7I8+3LZzsrV0P1IAHhP5U=
-github.com/prometheus-operator/prometheus-operator/pkg/apis/monitoring v0.71.2 h1:HZdPRm0ApWPg7F4sHgbqWkL+ddWfpTZsopm5HM/2g4o=
-github.com/prometheus-operator/prometheus-operator/pkg/apis/monitoring v0.71.2/go.mod h1:3RiUkFmR9kmPZi9r/8a5jw0a9yg+LMmr7qa0wjqvSiI=
-github.com/prometheus-operator/prometheus-operator/pkg/client v0.71.2 h1:7eyX8MypewjShiOFj6sOX+Ad+EJUIQ5qzdvM/U76cHs=
-github.com/prometheus-operator/prometheus-operator/pkg/client v0.71.2/go.mod h1:dH5cun6jo8vesIzplptAQpdXW9dL8rD2jpvWylG4B6s=
+github.com/prometheus-operator/prometheus-operator/pkg/apis/monitoring v0.72.0 h1:9h7PxMhT1S8lOdadEKJnBh3ELMdO60XkoDV98grYjuM=
+github.com/prometheus-operator/prometheus-operator/pkg/apis/monitoring v0.72.0/go.mod h1:4FiLCL664L4dNGeqZewiiD0NS7hhqi/CxyM4UOq5dfM=
+github.com/prometheus-operator/prometheus-operator/pkg/client v0.72.0 h1:UQT8vi8NK8Nt/wYZXY0Asx5XcGAhiQ1SQG190Ei4Pto=
+github.com/prometheus-operator/prometheus-operator/pkg/client v0.72.0/go.mod h1:AYjK2t/SjtOmdEAi2CxQ/t/TOQ0j3zzuMhJ5WgM+Ok0=
 github.com/prometheus/client_golang v0.9.1/go.mod h1:7SWBe2y4D6OKWSNQJUaRYU/AaXPKyh/dDVn+NZz0KFw=
 github.com/prometheus/client_golang v0.9.3/go.mod h1:/TN21ttK/J9q6uSwhBd54HahCDft0ttaMvbicHlPoso=
 github.com/prometheus/client_golang v1.0.0/go.mod h1:db9x61etRT2tGnBNRi70OPL5FsnadC4Ky3P0J6CfImo=
